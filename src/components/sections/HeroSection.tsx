@@ -86,14 +86,12 @@ export function HeroSection() {
               {/* Decorative blob behind image */}
               <div className="absolute inset-0 bg-primary/20 rounded-[40%_60%_70%_30%/40%_50%_60%_50%] animate-[spin_20s_linear_infinite] scale-105" />
               <div className="absolute inset-0 bg-secondary/30 rounded-[60%_40%_30%_70%/60%_30%_70%_40%] animate-[spin_25s_linear_infinite_reverse] scale-110" />
-
-              <div className="absolute inset-0 flex items-center justify-center translate-x-4">
+              <div className="absolute inset-0 rounded-[2rem] md:rounded-[4rem] overflow-hidden shadow-2xl rotate-2 hover:rotate-0 transition-transform duration-500 border-8 border-white bg-white">
                 <Image
-                  src="/logo.png"
-                  alt="Univet Dog'Shop Logo"
-                  width={600}
-                  height={400}
-                  className="w-[110%] h-auto md:w-[120%] rotate-2 hover:rotate-0 transition-transform duration-500 drop-shadow-2xl object-contain object-right-bottom scale-[1.10]"
+                  src="/hero-dog.jpg"
+                  alt="Cachorro sorrindo feliz"
+                  fill
+                  className="object-cover"
                   priority
                 />
               </div>
