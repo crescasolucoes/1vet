@@ -75,7 +75,6 @@ export function Footer() {
 
         <div className="border-t border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-slate-500">
           <p>© {new Date().getFullYear()} {SITE_CONFIG.name}. Todos os direitos reservados.</p>
-          <p>Responsável Técnico: Médico Veterinário CRMV/RN 0000</p>
         </div>
       </div>
     </footer>
